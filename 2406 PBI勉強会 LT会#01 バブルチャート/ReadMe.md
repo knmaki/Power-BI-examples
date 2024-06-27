@@ -1,8 +1,12 @@
 # 1. はじめに
 ## 1.1. これは何？
 Power BI LT 会 1で発表した内容。
+バブルチャートを使ってみた話。
 
 https://powerbi.connpass.com/event/321437/
+
+![image](https://github.com/knmaki/Power-BI-samples/assets/58804016/b1b7b39e-4ac9-432d-91c1-dfab28274ec9)
+
 
 ## 1.2. Power BI 勉強会とは
 楽しいところです。
