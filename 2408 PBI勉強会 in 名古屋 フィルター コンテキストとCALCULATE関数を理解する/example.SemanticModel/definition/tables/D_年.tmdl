@@ -1,0 +1,24 @@
+table D_年
+	lineageTag: a1be1767-2ded-4432-9fbd-ff59294e9b40
+
+	column 年
+		dataType: int64
+		formatString: 0
+		lineageTag: 3f242bde-8987-4d3a-837f-5f4260a8adc8
+		summarizeBy: none
+		sourceColumn: 年
+
+		annotation SummarizationSetBy = Automatic
+
+	partition D_年-82f37060-e16f-4f9e-9ed9-74e433e3c808 = m
+		mode: import
+		source =
+				let
+				    ソース = F_漁獲量,
+				    削除された他の列 = Table.SelectColumns(ソース,{"年"}),
+				    削除された重複 = Table.Distinct(削除された他の列)
+				in
+				    削除された重複
+
+	annotation PBI_ResultType = Table
+

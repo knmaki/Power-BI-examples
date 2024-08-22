@@ -1,0 +1,140 @@
+table F_漁獲量
+	lineageTag: fee7ef6c-e83c-453b-9361-d344c5050593
+
+	measure 漁獲量 = SUM('F_漁獲量'[_漁獲量])
+		formatString: #,0
+		lineageTag: 9aaf8da5-70f7-4d9b-a9c7-78a9ed96d85e
+
+	measure 漁獲量_地方別割合 =
+			
+			VAR _sum = [漁獲量]
+			VAR _total_sum = CALCULATE([漁獲量], ALLSELECTED('D_地方'[地方]))
+			RETURN DIVIDE(_sum, _total_sum)
+		formatString: 0%;-0%;0%
+		lineageTag: d3f9fd3c-b1d5-468f-a3b4-fb247ac3bb6c
+
+	measure 期初来漁獲量割合 =
+			
+			VAR _sum = [漁獲量]
+			VAR _start_year = CALCULATE(MIN('D_年'[年]), ALLSELECTED('D_年'[年]))
+			VAR _start_sum = CALCULATE([漁獲量], 'D_年'[年]=_start_year)
+			RETURN DIVIDE(_sum, _start_sum)*100
+		formatString: 0
+		lineageTag: 5781cbfc-0833-417d-b8aa-1473ebb2c608
+
+	measure CALCULATEのネスト =
+			
+			//  内側のCALCULATEが優先（外側→内側でコンテキストが変換される）
+			 CALCULATE(
+			    CALCULATE(
+			        [漁獲量],
+			        'D_地方'[地方] = "九州"
+			    ),
+			    'D_地方'[地方] = "関東"
+			 )
+		formatString: #,0
+		isHidden
+		displayFolder: テスト用（非表示）
+		lineageTag: 7afd4ba1-1d81-482b-b6e6-c2c65befd055
+
+		changedProperty = IsHidden
+
+	measure 漁獲量_いか類 = CALCULATE(SUM('F_漁獲量'[_漁獲量]), 'D_魚種'[魚種]="いか類")
+		formatString: #,0
+		isHidden
+		lineageTag: 40b76fc2-70bb-4730-9f91-3121ab6efe55
+
+		changedProperty = IsHidden
+
+	measure 漁獲量_いか類NG2 =
+			SUMX(
+			    FILTER('F_漁獲量', RELATED('D_魚種'[魚種])="いか類"),
+			    SUM('F_漁獲量'[_漁獲量])
+			)
+		formatString: #,0
+		isHidden
+		displayFolder: テスト用（非表示）
+		lineageTag: 6c814185-7883-47d4-bc83-6c722e40ecd8
+
+		changedProperty = IsHidden
+
+	measure 漁獲量_いか類NG3 =
+			SUMX(
+			    FILTER('F_漁獲量', RELATED('D_魚種'[魚種])="いか類"),
+			    [漁獲量]
+			)
+		formatString: #,0
+		isHidden
+		displayFolder: テスト用（非表示）
+		lineageTag: f22ee573-88e4-4eff-8a49-2591cc602e54
+
+		changedProperty = IsHidden
+
+	measure 漁獲量_いか類NG1 =
+			SUMX(
+			    FILTER('F_漁獲量', RELATED('D_魚種'[魚種])="いか類"),
+			    'F_漁獲量'[_漁獲量]
+			)
+		formatString: #,0
+		isHidden
+		displayFolder: テスト用（非表示）
+		lineageTag: 39b668f9-ff76-4e9a-91e0-bdde021e7944
+
+		changedProperty = IsHidden
+
+	column 年
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 736c4b69-df96-435e-99ed-793f985b2e94
+		summarizeBy: none
+		sourceColumn: 年
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 地方
+		dataType: string
+		isHidden
+		lineageTag: c88d63fd-c2f7-425e-bee3-fea198e85f7f
+		summarizeBy: none
+		sourceColumn: 地方
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 魚種
+		dataType: string
+		isHidden
+		lineageTag: 75bfc664-7f74-497b-bbaf-9cec9451976a
+		summarizeBy: none
+		sourceColumn: 魚種
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column _漁獲量
+		dataType: int64
+		isHidden
+		formatString: #,0
+		lineageTag: ed1f9971-74f1-4359-ad97-bfaec672ddca
+		summarizeBy: sum
+		sourceColumn: _漁獲量
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition F_漁獲量-aa7fa9fa-bfae-45df-8c96-f2e5099e81c0 = m
+		mode: import
+		source =
+				let
+				    ソース = source
+				in
+				    ソース
+
+	annotation PBI_ResultType = Table
+

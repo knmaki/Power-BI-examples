@@ -1,0 +1,75 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.1.0/schema.json",
+  "name": "ReportSectionae9434aa1ab99204f96a",
+  "displayName": "お魚",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "visualInteractions": [
+    {
+      "source": "0fe0e81002491669dded",
+      "target": "dc2f747f86bd2c26eb78",
+      "type": "NoFilter"
+    },
+    {
+      "source": "70ff080b5e29bca2d053",
+      "target": "8909326f980ab612da72",
+      "type": "DataFilter"
+    },
+    {
+      "source": "70ff080b5e29bca2d053",
+      "target": "4ebae5806e1045e5ef25",
+      "type": "DataFilter"
+    },
+    {
+      "source": "70ff080b5e29bca2d053",
+      "target": "0fe0e81002491669dded",
+      "type": "DataFilter"
+    },
+    {
+      "source": "0fe0e81002491669dded",
+      "target": "422d189df83f178d208b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "422d189df83f178d208b",
+      "target": "4ebae5806e1045e5ef25",
+      "type": "NoFilter"
+    },
+    {
+      "source": "422d189df83f178d208b",
+      "target": "8909326f980ab612da72",
+      "type": "NoFilter"
+    },
+    {
+      "source": "dc2f747f86bd2c26eb78",
+      "target": "8909326f980ab612da72",
+      "type": "NoFilter"
+    },
+    {
+      "source": "dc2f747f86bd2c26eb78",
+      "target": "4ebae5806e1045e5ef25",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4ebae5806e1045e5ef25",
+      "target": "8909326f980ab612da72",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8909326f980ab612da72",
+      "target": "4ebae5806e1045e5ef25",
+      "type": "NoFilter"
+    },
+    {
+      "source": "422d189df83f178d208b",
+      "target": "dc2f747f86bd2c26eb78",
+      "type": "NoFilter"
+    },
+    {
+      "source": "dc2f747f86bd2c26eb78",
+      "target": "422d189df83f178d208b",
+      "type": "NoFilter"
+    }
+  ]
+}

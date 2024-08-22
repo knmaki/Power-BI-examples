@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.1.0/schema.json",
+  "name": "78603ef5226a974d3bda",
+  "position": {
+    "x": 776.25,
+    "y": 690.24993896484375,
+    "z": 14000,
+    "height": 29.75006103515625,
+    "width": 503.75,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "出所: "
+                  },
+                  {
+                    "value": "海面漁業生産統計調査 | すべて | 統計データを探す | 政府統計の総合窓口 (e-stat.go.jp)",
+                    "textStyle": {
+                      "fontSize": "8pt"
+                    },
+                    "url": "https://www.e-stat.go.jp/stat-search?page=1&toukei=00500216&survey=%E6%B5%B7%E9%9D%A2%E6%BC%81%E6%A5%AD%E7%94%9F%E7%94%A3%E7%B5%B1%E8%A8%88%E8%AA%BF%E6%9F%BB"
+                  }
+                ],
+                "horizontalTextAlignment": "right"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
