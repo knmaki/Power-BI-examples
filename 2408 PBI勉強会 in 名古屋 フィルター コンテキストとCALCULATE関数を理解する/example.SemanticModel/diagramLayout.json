@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 24.039148721498464
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 4.0097295957871211,
+            "y": 0
+          },
+          "nodeIndex": "D_魚種",
+          "nodeLineageTag": "c7604236-6729-4701-8c58-8f2be6a14408",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 570.28619631374534,
+            "y": 0
+          },
+          "nodeIndex": "D_地方",
+          "nodeLineageTag": "b7497918-5058-462a-8d15-7a66c69fdc56",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 287.44955772669709,
+            "y": 0
+          },
+          "nodeIndex": "D_年",
+          "nodeLineageTag": "a1be1767-2ded-4432-9fbd-ff59294e9b40",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 287.09371417764282,
+            "y": 155.26893531429414
+          },
+          "nodeIndex": "F_漁獲量",
+          "nodeLineageTag": "fee7ef6c-e83c-453b-9361-d344c5050593",
+          "size": {
+            "height": 391.73998006860006,
+            "width": 234
+          },
+          "zIndex": 4
+        }
+      ],
+      "name": "すべてのテーブル",
+      "zoomValue": 97.181185901484881,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "すべてのテーブル",
+  "defaultDiagram": "すべてのテーブル"
+}

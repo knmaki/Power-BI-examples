@@ -1,0 +1,12 @@
+relationship d83369fc-0320-458b-94db-b6585da42e65
+	fromColumn: F_漁獲量.年
+	toColumn: D_年.年
+
+relationship 194005aa-2436-490a-af90-4e714d877f31
+	fromColumn: F_漁獲量.地方
+	toColumn: D_地方.地方
+
+relationship c4251c16-a0a5-46ca-afbe-ee0e03c3b2cc
+	fromColumn: F_漁獲量.魚種
+	toColumn: D_魚種.魚種
+

@@ -1,0 +1,23 @@
+model Model
+	culture: ja-JP
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: ja-JP
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBIDesktopVersion = 2.132.1053.0 (24.08)
+
+annotation PBI_QueryOrder = ["source","F_漁獲量","D_年","D_地方","D_魚種"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table F_漁獲量
+ref table D_年
+ref table D_地方
+ref table D_魚種
+
+ref cultureInfo ja-JP
+
