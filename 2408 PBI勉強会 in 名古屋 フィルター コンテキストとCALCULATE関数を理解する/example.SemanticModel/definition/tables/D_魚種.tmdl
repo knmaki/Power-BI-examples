@@ -1,0 +1,23 @@
+table D_魚種
+	lineageTag: c7604236-6729-4701-8c58-8f2be6a14408
+
+	column 魚種
+		dataType: string
+		lineageTag: 14e5f76d-d0f8-46f9-87d0-63289ebdba96
+		summarizeBy: none
+		sourceColumn: 魚種
+
+		annotation SummarizationSetBy = Automatic
+
+	partition D_魚種-54573233-8fc8-4b08-8ad9-b3638806c072 = m
+		mode: import
+		source =
+				let
+				    ソース = F_漁獲量,
+				    削除された他の列 = Table.SelectColumns(ソース,{"魚種"}),
+				    削除された重複 = Table.Distinct(削除された他の列)
+				in
+				    削除された重複
+
+	annotation PBI_ResultType = Table
+

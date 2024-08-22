@@ -1,0 +1,23 @@
+table D_地方
+	lineageTag: b7497918-5058-462a-8d15-7a66c69fdc56
+
+	column 地方
+		dataType: string
+		lineageTag: e648e025-a594-49f7-9dd4-f9be5c6b7a49
+		summarizeBy: none
+		sourceColumn: 地方
+
+		annotation SummarizationSetBy = Automatic
+
+	partition D_地方-984d93be-107b-49be-a061-87fc7d215e3e = m
+		mode: import
+		source =
+				let
+				    ソース = F_漁獲量,
+				    削除された他の列 = Table.SelectColumns(ソース,{"地方"}),
+				    削除された重複 = Table.Distinct(削除された他の列)
+				in
+				    削除された重複
+
+	annotation PBI_ResultType = Table
+
