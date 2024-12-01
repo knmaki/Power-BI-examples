@@ -6,7 +6,7 @@ Party ParrotをPower BIのレポートで動かす。
 https://powerbi.connpass.com/event/336027/
 
 ↓をぐりぐり動かしたい。
-![alt text](<img/img_たくさん-1.png>)
+![alt text](https://github.com/user-attachments/assets/be2414ce-1ddf-4a41-8fc9-2cbb3def5c34)
 
 ## 1.2. Power BI 勉強会とは
 楽しいところです。
@@ -32,25 +32,25 @@ https://www.ehansalytics.com/blog/2021/10/27/add-an-animated-gif-to-your-power-b
 
 動かない。かなC。
 
-![alt text](</img/img_動かない_ハリー.png>)
+![alt text](https://github.com/user-attachments/assets/48e25dbf-90a8-4b90-81c3-9fb54b0993f7)
 
 ## 2.2. OKなケース
 ### キャンバス全体
 キャンバスを選択 -> 書式設定 -> `キャンバスの背景` -> `イメージ `の `参照...`からファイル選択 -> `透過性`=0%
 
-![alt text](<img/img_GIFアニメ キャンバス全体_吹き出しあり.gif>)
+![alt text](https://github.com/user-attachments/assets/4fb559e1-cdf7-44e1-8ac4-e216ae67233c)
 
 
 ### ボタン
 
 `挿入`タブ -> `ボタン`ボタン -> `空白` -> 書式設定 -> `ボタンのスタイル` -> `フィル`のトグルをオン -> `参照...`からファイル選択 -> `透過性`=0%
 
-![alt text](<img/img_GIFアニメ ボタン_吹き出しあり.gif>)
+![alt text](https://github.com/user-attachments/assets/6c324d1d-90ce-4056-bdd3-9171bda0ea51)
 
 ### たくさん動かしてみた
 戦いは数だよ兄貴！！
 
-![alt text](<img/img_GIFアニメ たくさん.gif>)
+![alt text](https://github.com/user-attachments/assets/691a66bc-21a9-4829-807a-76ae1ac55b7f)
 
 リポジトリから.pbixファイルをダウンロードするともっとやばいやつがあるよ💖💖
 
