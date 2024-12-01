@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "party parrots"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ed02cc80-a442-4f79-9d0f-1430673b3df6"
+  }
+}

@@ -1,0 +1,25 @@
+table dummy_table
+	lineageTag: 7c9d979c-4654-4ed5-a709-3c1db31331f1
+
+	column col
+		dataType: int64
+		formatString: 0
+		lineageTag: 77e5c1b0-896d-4327-9a57-104a7c07bb89
+		summarizeBy: sum
+		sourceColumn: col
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dummy_table = m
+		mode: import
+		source =
+				let
+				    ソース = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45WMlSK1YlWMlKKjQUA", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [col = _t]),
+				    変更された型 = Table.TransformColumnTypes(ソース,{{"col", Int64.Type}})
+				in
+				    変更された型
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = ナビゲーション
+
