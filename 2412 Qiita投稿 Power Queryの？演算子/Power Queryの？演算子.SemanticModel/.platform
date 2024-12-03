@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Power Queryの？演算子"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "88a2efaa-1f3d-4af2-b71b-d6b7ca352151"
+  }
+}

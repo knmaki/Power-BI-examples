@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../Power Queryの？演算子.SemanticModel"
+    },
+    "byConnection": null
+  }
+}

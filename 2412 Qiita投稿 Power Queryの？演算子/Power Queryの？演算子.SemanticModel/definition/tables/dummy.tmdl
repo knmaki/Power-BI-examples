@@ -1,0 +1,23 @@
+table dummy
+	lineageTag: 11a477b9-2daa-4449-bbb5-3d108e9da51a
+
+	column クエリ1
+		dataType: string
+		lineageTag: 5c728a69-49a2-47a3-ab43-1b7ba684bba3
+		summarizeBy: none
+		sourceColumn: クエリ1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dummy = m
+		mode: import
+		source =
+				let
+				    ソース = ""
+				in
+				    ソース
+
+	annotation PBI_NavigationStepName = ナビゲーション
+
+	annotation PBI_ResultType = Text
+

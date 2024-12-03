@@ -1,0 +1,33 @@
+model Model
+	culture: ja-JP
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: ja-JP
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+/// https://learn.microsoft.com/ja-jp/powerquery-m/m-spec-operators#item-access
+queryGroup 項目アクセス
+
+	annotation PBI_QueryGroupOrder = 3
+
+queryGroup 'フィールド アクセス'
+
+	annotation PBI_QueryGroupOrder = 4
+
+queryGroup '合体演算子（Coalesce Operator）'
+
+	annotation PBI_QueryGroupOrder = 5
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBIDesktopVersion = 2.138.1004.0 (24.11)
+
+annotation PBI_QueryOrder = ["？なし","？あり","エラー評価","項目取得","射影","Coalesce","dummy"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table dummy
+
+ref cultureInfo ja-JP
+
