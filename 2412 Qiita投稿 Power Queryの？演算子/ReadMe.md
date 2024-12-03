@@ -4,7 +4,8 @@
 ## 1.1. きっかけ
 ヘルパー クエリが出るやつ（例えば[こちら](https://qiita.com/k_maki/items/cab7a340ffc717ef1a4d#21-%E3%83%98%E3%83%AB%E3%83%91%E3%83%BC-%E3%82%AF%E3%82%A8%E3%83%AA%E5%87%BA%E7%8F%BE)）をやっていると、数式内に `?` が出てた。
 
-![？が出た.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/239172/9090e5af-0aa8-bedd-5bc6-92c13e582d11.png)
+
+![？が出た](https://github.com/user-attachments/assets/21fccfc1-4ff6-4a05-b237-fea8d9c88a74)
 
 あれ？ `?` って何だっけと思ったのが調べたきっかけ。
 
@@ -32,7 +33,7 @@ https://powerbi.connpass.com/
 
 サンプル ファイルのセマンティック モデルは、ほぼ空。Power Queryエディターの方にサンプル クエリがあるのでそっちを見てね。各ステップを追えば、結果を確認できる。
 
-![サンプル クエリ一覧.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/239172/99194a49-b44f-abf6-9961-c679d7959df6.png)
+<img width="212" alt="サンプル クエリ一覧" src="https://github.com/user-attachments/assets/39cd21c2-691a-4559-8e4b-cbd385962dd1">
 
 
 # 2. ?演算子（項目およびフィールドへのアクセス）
