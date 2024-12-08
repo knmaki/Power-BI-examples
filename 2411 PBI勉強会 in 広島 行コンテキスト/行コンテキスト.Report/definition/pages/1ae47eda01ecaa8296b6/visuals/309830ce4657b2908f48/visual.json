@@ -1,0 +1,143 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.4.0/schema.json",
+  "name": "309830ce4657b2908f48",
+  "position": {
+    "x": 32.405063291139236,
+    "y": 241.01265822784808,
+    "z": 1000,
+    "height": 226.83544303797467,
+    "width": 885.0632911392405,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "売上"
+                    }
+                  },
+                  "Property": "商品ID"
+                }
+              },
+              "queryRef": "売上.商品ID",
+              "nativeQueryRef": "商品ID"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "売上"
+                        }
+                      },
+                      "Property": "売上_計算列"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(売上.売上_計算列)",
+              "nativeQueryRef": "売上_計算列 の合計"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "売上"
+                    }
+                  },
+                  "Property": "売上_SUMX"
+                }
+              },
+              "queryRef": "売上.売上_SUMX",
+              "nativeQueryRef": "売上_SUMX"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "売上"
+                    }
+                  },
+                  "Property": "売上_商品A"
+                }
+              },
+              "queryRef": "売上.売上_商品A",
+              "nativeQueryRef": "売上_商品A"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "売上"
+                    }
+                  },
+                  "Property": "売上_商品A_誤"
+                }
+              },
+              "queryRef": "売上.売上_商品A_誤",
+              "nativeQueryRef": "売上_商品A_誤"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "112.24050958524766D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(売上.売上_計算列)"
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

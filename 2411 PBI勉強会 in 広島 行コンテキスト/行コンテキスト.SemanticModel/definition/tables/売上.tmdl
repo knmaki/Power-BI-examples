@@ -1,0 +1,119 @@
+table 売上
+	lineageTag: bf676c25-b724-4fc4-9024-fc5b0e4383bb
+
+	measure 売上_SUMX = SUMX('売上', '売上'[単価] * '売上'[数量])
+		formatString: 0
+		lineageTag: 03598049-2704-4627-af81-0855377778f8
+
+	measure 売上_商品A =
+			CALCULATE(
+			    SUM('売上'[売上_計算列]),
+			    '売上'[商品ID]="A"
+			)
+		formatString: 0
+		lineageTag: 09afef14-a70b-4fd2-9695-b551d9cd4237
+
+	measure 売上_商品A_FILTER =
+			CALCULATE(
+			    SUM('売上'[売上_計算列]),
+			    FILTER(
+			        ALL('売上'[商品ID]),
+			        '売上'[商品ID]="A"
+			    )
+			)
+		formatString: 0
+		lineageTag: 5893e1d8-1000-46e3-812a-348418352b3d
+
+	measure 売上_商品A_誤 =
+			SUMX(
+			    FILTER(
+			        '売上',
+			        '売上'[商品ID]="A"
+			    ),
+			    SUM('売上'[売上_計算列])
+			)
+		formatString: 0
+		lineageTag: c0c84261-5eb4-4c03-ba8f-6489627b8594
+
+	measure 売上_400以上_誤 =
+			CALCULATE(
+			    SUM('売上'[売上_計算列]),
+			    FILTER(
+			        '売上',
+			        '売上'[売上_SUMX]>=400
+			    )
+			)
+		formatString: 0
+		lineageTag: ce5e5dfc-aa3e-42c7-be55-e11d78e21424
+
+	measure 売上_400以上 =
+			CALCULATE(
+			    SUM('売上'[売上_計算列]),
+			    FILTER(
+			        '売上',
+			        '売上'[単価]*'売上'[数量] >=400
+			    )
+			)
+		formatString: 0
+		lineageTag: 0a5bc96a-62a2-4c97-b8f4-f805f2fe12f4
+
+	measure 売上_誤 = '売上'[数量] * '売上'[単価]
+		lineageTag: 0e0c1c71-f9dc-4f29-835d-8d819dd7bd1c
+
+	column 日付
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 91d8bcae-b00c-4343-a8dd-cd4405efc825
+		summarizeBy: none
+		sourceColumn: 日付
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 商品ID
+		dataType: string
+		lineageTag: 397c6bc3-c50a-42aa-8998-5114d31ceb88
+		summarizeBy: none
+		sourceColumn: 商品ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 単価
+		dataType: int64
+		formatString: 0
+		lineageTag: 2f975c39-d44d-44b7-a9b5-59c0840b982d
+		summarizeBy: sum
+		sourceColumn: 単価
+
+		annotation SummarizationSetBy = Automatic
+
+	column 数量
+		dataType: int64
+		formatString: 0
+		lineageTag: 924d8ed6-37ac-4004-a2b7-23b1f35c8255
+		summarizeBy: sum
+		sourceColumn: 数量
+
+		annotation SummarizationSetBy = Automatic
+
+	column 売上_計算列 = '売上'[単価] * '売上'[数量]
+		formatString: 0
+		lineageTag: 87c4f5d9-ed5a-4814-b53e-4b9a3da351a3
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 売上 = m
+		mode: import
+		source =
+				let
+				    ソース = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45WMjIwMtE3NNA3VNJRcgRiQwMDIGmkFKtDvJwTSBQsZ6IUGwsA", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [日付 = _t, 商品ID = _t, 単価 = _t, 数量 = _t]),
+				    変更された型 = Table.TransformColumnTypes(ソース,{{"日付", type date}, {"商品ID", type text}, {"単価", Int64.Type}, {"数量", Int64.Type}})
+				in
+				    変更された型
+
+	annotation PBI_NavigationStepName = ナビゲーション
+
+	annotation PBI_ResultType = Table
+

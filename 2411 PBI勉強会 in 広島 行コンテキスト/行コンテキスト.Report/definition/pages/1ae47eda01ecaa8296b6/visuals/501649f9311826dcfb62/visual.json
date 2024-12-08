@@ -1,0 +1,150 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.4.0/schema.json",
+  "name": "501649f9311826dcfb62",
+  "position": {
+    "x": 30.379746835443036,
+    "y": 42.531645569620252,
+    "z": 0,
+    "height": 135.69620253164555,
+    "width": 885.0632911392405,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "売上"
+                    }
+                  },
+                  "Property": "商品ID"
+                }
+              },
+              "queryRef": "売上.商品ID",
+              "nativeQueryRef": "商品ID"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "売上"
+                    }
+                  },
+                  "Property": "売上_SUMX"
+                }
+              },
+              "queryRef": "売上.売上_SUMX",
+              "nativeQueryRef": "売上_SUMX"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "売上"
+                    }
+                  },
+                  "Property": "売上_商品A"
+                }
+              },
+              "queryRef": "売上.売上_商品A",
+              "nativeQueryRef": "売上_商品A"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "売上"
+                    }
+                  },
+                  "Property": "売上_商品A_FILTER"
+                }
+              },
+              "queryRef": "売上.売上_商品A_",
+              "nativeQueryRef": "売上_商品A_FILTER"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "売上"
+                    }
+                  },
+                  "Property": "売上_商品A_誤"
+                }
+              },
+              "queryRef": "売上.売上_商品A_誤",
+              "nativeQueryRef": "売上_商品A_誤"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "売上"
+                    }
+                  },
+                  "Property": "売上_400以上"
+                }
+              },
+              "queryRef": "売上.売上_売上200以上",
+              "nativeQueryRef": "売上_400以上"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "売上"
+                    }
+                  },
+                  "Property": "売上_400以上_誤"
+                }
+              },
+              "queryRef": "売上.売上_商品A_誤2",
+              "nativeQueryRef": "売上_400以上_誤"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
