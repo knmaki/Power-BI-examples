@@ -9,7 +9,7 @@ https://powerbi.connpass.com/event/329171/
 行コンテキストそのもの、また、陥りがちな失敗例とその回避方法についての説明。行コンテキストって計算列だけじゃないのよ。
 
 （雑な絵）
-![深淵をのぞく_集中線](https://github.com/user-attachments/assets/638b8670-d8cc-4e2f-bc34-aa8545d872c4)
+![深淵をのぞく_集中線_レンズフレア](https://github.com/user-attachments/assets/4705c84b-908d-4328-beb9-5f9a39bb01c1)
 
 
 ## 0.2. Power BI 勉強会とは
