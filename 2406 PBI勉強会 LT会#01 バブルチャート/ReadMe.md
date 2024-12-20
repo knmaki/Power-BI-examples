@@ -76,9 +76,9 @@ X軸もY軸もメジャーなのは不思議な気がしたが、テーブルを
 ### 階層内の次のレベルに移動
 `↓↓` アイコンの「階層内の次のレベルに移動します」で遊んでみると。こんな感じ。
 
-- 第一階層（地方2区分） ![バブル チャート_第一階層](https://github.com/user-attachments/assets/cff42029-d796-4e63-89e0-9d77e24ef81a)
-- 第二階層（地方7区分） ![バブル チャート_第二階層](https://github.com/user-attachments/assets/81d04f1c-79b3-48cf-b093-c5c8f1877880)
-- 第三階層（都道府県） ![バブル チャート_第三階層](https://github.com/user-attachments/assets/3c8bb578-45de-44e3-b04a-07dec97f25c6)
+- 第一階層（地方2区分）------ ![バブル チャート_第一階層](https://github.com/user-attachments/assets/cff42029-d796-4e63-89e0-9d77e24ef81a)
+- 第二階層（地方7区分）------ ![バブル チャート_第二階層](https://github.com/user-attachments/assets/81d04f1c-79b3-48cf-b093-c5c8f1877880)
+- 第三階層（都道府県）------ ![バブル チャート_第三階層](https://github.com/user-attachments/assets/3c8bb578-45de-44e3-b04a-07dec97f25c6)
 
 
 ### ドリル ダウン
@@ -86,17 +86,17 @@ X軸もY軸もメジャーなのは不思議な気がしたが、テーブルを
 
 バブルをクリックすると、どんどん分解される。おお、分析している感が出てきて気持ちいい。
 
-- 第一階層（地方2区分）の東日本をクリック ![バブル チャート_ドリルダウン_第一階層](https://github.com/user-attachments/assets/5d49e8aa-560a-4012-a20a-e4ef0fd41d5d)
-- 第二階層（地方7区分）の中部をクリック ![バブル チャート_ドリルダウン_第二階層](https://github.com/user-attachments/assets/66a87f06-7f6b-4f9b-bcf8-aa24c3a8cd01)
-- 第三階層（都道府県） ![バブル チャート_ドリルダウン_第三階層](https://github.com/user-attachments/assets/145baa09-aaf7-4ce5-b564-97f56ecf25c6)
+- 第一階層（地方2区分）の東日本をクリック------ ![バブル チャート_ドリルダウン_第一階層](https://github.com/user-attachments/assets/5d49e8aa-560a-4012-a20a-e4ef0fd41d5d)
+- 第二階層（地方7区分）の中部をクリック------ ![バブル チャート_ドリルダウン_第二階層](https://github.com/user-attachments/assets/66a87f06-7f6b-4f9b-bcf8-aa24c3a8cd01)
+- 第三階層（都道府県）------ ![バブル チャート_ドリルダウン_第三階層](https://github.com/user-attachments/assets/145baa09-aaf7-4ce5-b564-97f56ecf25c6)
 
 
 
 
 ## 3.5. フィールド パラメーターで工夫
 凡例にフィールド パラメーターをセットすると、値のドリルダウンに合わせてバブルの色分けを変更可能。工夫すればさらに意味付けられたチャートに。
-- 地方2区分で色分け ![バブル チャート_FP1](https://github.com/user-attachments/assets/31c8160b-1df9-424d-85a0-116bfa9922fe)
-- 地方7区分で色分け ![バブル チャート_FP2](https://github.com/user-attachments/assets/26aa42b0-8a2e-4a80-b45b-f6d2f8d12bea)
+- 地方2区分で色分け------ ![バブル チャート_FP1](https://github.com/user-attachments/assets/31c8160b-1df9-424d-85a0-116bfa9922fe)
+- 地方7区分で色分け------ ![バブル チャート_FP2](https://github.com/user-attachments/assets/26aa42b0-8a2e-4a80-b45b-f6d2f8d12bea)
 
 と言っても、色分けは4つ以下なら見やすいけれど、5つだと微妙で、6つ以上ならやらない方がマシかな。←「個人の感想です。効果には個人差があります。」
 
