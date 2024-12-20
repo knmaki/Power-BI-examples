@@ -1,0 +1,2909 @@
+cultureInfo ja-JP
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "D_都道府県": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "D 都道府県": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "D_都道府県": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "D_都道府県.都道府県_順序": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "ConceptualProperty": "都道府県_順序"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "都道府県 順序": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "都道府県_順序": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "D_都道府県.都道府県": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "ConceptualProperty": "都道府県"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "都道府県": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_都道府県.地方区分14": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "ConceptualProperty": "地方区分（14）"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "地方区分（14）": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "地方区分": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_都道府県.地方区分14_順序": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "ConceptualProperty": "地方区分（14）_順序"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "地方区分（14）_順序": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "D_都道府県.地方区分02": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "ConceptualProperty": "地方区分（02）"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "地方区分（02）": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "地方区分": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_都道府県.地方区分02_順序": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "ConceptualProperty": "地方区分（02）_順序"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "地方区分（02）_順序": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "D_都道府県.地方区分04": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "ConceptualProperty": "地方区分（04）"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "地方区分（04）": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "地方区分": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_都道府県.地方区分04_順序": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "ConceptualProperty": "地方区分（04）_順序"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "地方区分（04）_順序": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "D_都道府県.地方区分07": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "ConceptualProperty": "地方区分（07）"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "地方区分（07）": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "地方区分": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_都道府県.地方区分07_順序": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "ConceptualProperty": "地方区分（07）_順序"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "地方区分（07）_順序": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "D_都道府県.地方区分08": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "ConceptualProperty": "地方区分（08）"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "地方区分（08）": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "地方区分": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_都道府県.地方区分08_順序": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "ConceptualProperty": "地方区分（08）_順序"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "地方区分（08）_順序": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "D_都道府県.地方区分09": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "ConceptualProperty": "地方区分（09）"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "地方区分（09）": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "地方区分": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_都道府県.地方区分09_順序": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "ConceptualProperty": "地方区分（09）_順序"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "地方区分（09）_順序": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "D_都道府県.地方区分階層08": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "Hierarchy": "地方区分階層（08）"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "地方区分階層（08）": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_都道府県.地方区分階層08.地方区分08": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "Hierarchy": "地方区分階層（08）",
+			          "HierarchyLevel": "地方区分（08）"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "地方区分（08）": {
+			            "LastModified": "2024-06-23T09:06:33.151Z"
+			          }
+			        },
+			        {
+			          "state or province": {
+			            "LastModified": "2024-06-23T09:06:33.151Z"
+			          }
+			        },
+			        {
+			          "地方区分": {
+			            "LastModified": "2024-06-23T09:06:33.151Z"
+			          }
+			        },
+			        {},
+			        {
+			          "state province": {
+			            "State": "Suggested",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "province": {
+			            "State": "Suggested",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "location or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "province or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "territory or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "nation or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "condition or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "country or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "八地方区分。中国と四国が分かれている。三重県は中部地方。近畿地方ではなく関西地方。": {
+			            "State": "Deleted",
+			            "LastModified": "2024-06-23T09:06:33.152Z"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_都道府県.地方区分階層08.地方区分09": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "Hierarchy": "地方区分階層（08）",
+			          "HierarchyLevel": "地方区分（09）"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "地方区分（09）": {
+			            "LastModified": "2024-06-23T09:06:41.432Z"
+			          }
+			        },
+			        {
+			          "state or province": {
+			            "LastModified": "2024-06-23T09:06:41.432Z"
+			          }
+			        },
+			        {
+			          "地方区分": {
+			            "LastModified": "2024-06-23T09:06:41.432Z"
+			          }
+			        },
+			        {},
+			        {
+			          "state province": {
+			            "State": "Suggested",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "province": {
+			            "State": "Suggested",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "location or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "province or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "territory or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "nation or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "condition or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "country or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "北陸・甲信越地方、東海地方に分かれた区分。三重県は東海地方。近畿地方ではなく関西地方。": {
+			            "State": "Deleted",
+			            "LastModified": "2024-06-23T09:06:41.432Z"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_都道府県.地方区分階層08.地方区分14": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "Hierarchy": "地方区分階層（08）",
+			          "HierarchyLevel": "地方区分（14）"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "地方区分（14）": {
+			            "LastModified": "2024-06-23T09:06:51.334Z"
+			          }
+			        },
+			        {
+			          "state or province": {
+			            "LastModified": "2024-06-23T09:06:51.334Z"
+			          }
+			        },
+			        {
+			          "地方区分": {
+			            "LastModified": "2024-06-23T09:06:51.334Z"
+			          }
+			        },
+			        {
+			          "東北、関東、九州を北と南に分けた狭域的な地方区分。": {
+			            "State": "Deleted",
+			            "LastModified": "2024-06-23T09:06:51.334Z"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_都道府県.地方区分階層08.都道府県": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "Hierarchy": "地方区分階層（08）",
+			          "HierarchyLevel": "都道府県"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "都道府県": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_都道府県.地方区分階層02": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "Hierarchy": "地方区分階層（02）"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "地方区分階層（02）": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_都道府県.地方区分階層02.地方区分02": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "Hierarchy": "地方区分階層（02）",
+			          "HierarchyLevel": "地方区分（02）"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "地方区分（02）": {
+			            "LastModified": "2024-06-23T09:06:04.057Z"
+			          }
+			        },
+			        {
+			          "state or province": {
+			            "LastModified": "2024-06-23T09:06:04.057Z"
+			          }
+			        },
+			        {
+			          "地方区分": {
+			            "LastModified": "2024-06-23T09:06:04.057Z"
+			          }
+			        },
+			        {},
+			        {
+			          "state province": {
+			            "State": "Suggested",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "province": {
+			            "State": "Suggested",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "location or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "province or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "territory or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "nation or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "condition or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "country or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "西日本と東日本": {
+			            "State": "Deleted",
+			            "LastModified": "2024-06-23T09:06:04.057Z"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_都道府県.地方区分階層02.地方区分07": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "Hierarchy": "地方区分階層（02）",
+			          "HierarchyLevel": "地方区分（07）"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "地方区分（07）": {
+			            "LastModified": "2024-06-23T09:06:24.822Z"
+			          }
+			        },
+			        {
+			          "state or province": {
+			            "LastModified": "2024-06-23T09:06:09.741Z"
+			          }
+			        },
+			        {
+			          "地方区分": {
+			            "LastModified": "2024-06-23T09:06:09.741Z"
+			          }
+			        },
+			        {},
+			        {
+			          "state province": {
+			            "State": "Suggested",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "province": {
+			            "State": "Suggested",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "location or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "province or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "territory or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "nation or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "condition or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "country or province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "地方区分（0）": {
+			            "State": "Deleted",
+			            "LastModified": "2024-06-23T09:06:24.822Z"
+			          }
+			        },
+			        {
+			          "七地方区分。中国と四国が一緒になっている。三重県は近畿地方。": {
+			            "State": "Deleted",
+			            "LastModified": "2024-06-23T09:06:09.741Z"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_都道府県.地方区分階層02.都道府県": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_都道府県",
+			          "Hierarchy": "地方区分階層（02）",
+			          "HierarchyLevel": "都道府県"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "都道府県": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "F_統計": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "F 統計": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "F_統計": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.都道府県": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "都道府県"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "都道府県": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.v_県内総生産_県内総生産": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "_県内総生産"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "_県内総生産": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.v_人口_人口": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "_人口"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "_人口": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.v_労働力人口_労働力人口": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "_労働力人口"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "_労働力人口": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.v_就業者数_就業者数": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "_就業者数"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "_就業者数": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.v_高齢化率_高齢化率": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "_高齢化率"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "_高齢化率": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.v_合計特殊出生率_合計特殊出生率": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "_合計特殊出生率"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "_合計特殊出生率": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.v_寿命_寿命": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "_寿命"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "_寿命": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.v_面積_面積": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "_面積"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "_面積": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.v_可住地面積_可住地面積": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "_可住地面積"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "_可住地面積": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.高齢者人口": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "高齢者人口"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "高齢者人口": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.平均寿命": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "平均寿命"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "平均寿命": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.就業者数": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "就業者数"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "就業者数": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.人口": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "人口"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "人口": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.面積": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "面積"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "面積": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.労働力人口": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "労働力人口"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "労働力人口": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.高齢化率": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "高齢化率"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "高齢化率": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.可住地面積": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "可住地面積"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "可住地面積": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.県内総生産": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "県内総生産"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "県内総生産": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_統計.一人当たり県内総生産": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_統計",
+			          "ConceptualProperty": "一万人当たり県内総生産"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "一万人当たり県内総生産": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "FP_地方区分02": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FP_地方区分（02）"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "FP_地方区分（02）": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "FP_地方区分02.FP_地方区分02": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FP_地方区分（02）",
+			          "ConceptualProperty": "FP_地方区分（02）"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "FP_地方区分（02）": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FP_地方区分（02） name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FP_地方区分": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "FP_地方区分02.FP_地方区分02_フィールド": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FP_地方区分（02）",
+			          "ConceptualProperty": "FP_地方区分（02） フィールド"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "FP_地方区分（02） フィールド": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "FP_地方区分02.FP_地方区分02_注文": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FP_地方区分（02）",
+			          "ConceptualProperty": "FP_地方区分（02） 注文"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "FP_地方区分（02） 注文": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "D_都道府県_地方区分階層02_has_地方区分07": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県.地方区分階層02": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層02"
+			          }
+			        },
+			        "D_都道府県.地方区分階層02.地方区分07": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層02.地方区分07"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層02"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層02.地方区分07"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "地方区分階層02_have_地方区分07"
+			        }
+			      ]
+			    },
+			    "D_都道府県_地方区分階層02_has_地方区分02": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県.地方区分階層02": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層02"
+			          }
+			        },
+			        "D_都道府県.地方区分階層02.地方区分02": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層02.地方区分02"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層02"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層02.地方区分02"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "地方区分階層02_have_地方区分02"
+			        }
+			      ]
+			    },
+			    "D_都道府県_地方区分階層08_地方区分14_has_D_都道府県_地方区分階層08_都道府県": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県.地方区分階層08.地方区分14": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08.地方区分14"
+			          }
+			        },
+			        "D_都道府県.地方区分階層08.都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08.都道府県"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分14"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08.都道府県"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "東北関東九州を北と南に分けた狭域的な地方区分_have_都道府県"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層08.都道府県"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分14"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "都道府県_have_東北関東九州を北と南に分けた狭域的な地方区分"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層08.都道府県"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分14"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "都道府県_are_in_東北関東九州を北と南に分けた狭域的な地方区分"
+			        }
+			      ]
+			    },
+			    "D_都道府県_地方区分階層08_地方区分09_has_D_都道府県_地方区分階層08_地方区分14": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県.地方区分階層08.地方区分09": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08.地方区分09"
+			          }
+			        },
+			        "D_都道府県.地方区分階層08.地方区分14": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08.地方区分14"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分09"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分14"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "地方区分09_have_東北関東九州を北と南に分けた狭域的な地方区分"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分14"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分09"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "東北関東九州を北と南に分けた狭域的な地方区分_have_地方区分09"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分14"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分09"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "東北関東九州を北と南に分けた狭域的な地方区分_are_in_地方区分09"
+			        }
+			      ]
+			    },
+			    "D_都道府県_地方区分階層08_地方区分08_has_D_都道府県_地方区分階層08_地方区分09": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県.地方区分階層08.地方区分08": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08.地方区分08"
+			          }
+			        },
+			        "D_都道府県.地方区分階層08.地方区分09": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08.地方区分09"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分08"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分09"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "地方区分08_have_地方区分09"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分09"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分08"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "地方区分09_have_地方区分08"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分09"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分08"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "地方区分09_are_in_地方区分08"
+			        }
+			      ]
+			    },
+			    "D_都道府県_地方区分階層08_has_都道府県": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県.地方区分階層08": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08"
+			          }
+			        },
+			        "D_都道府県.地方区分階層08.都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08.都道府県"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層08"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08.都道府県"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "地方区分階層08_have_都道府県"
+			        }
+			      ]
+			    },
+			    "D_都道府県_地方区分階層08_has_地方区分14": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県.地方区分階層08": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08"
+			          }
+			        },
+			        "D_都道府県.地方区分階層08.地方区分14": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08.地方区分14"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層08"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分14"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "地方区分階層08_have_東北関東九州を北と南に分けた狭域的な地方区分"
+			        }
+			      ]
+			    },
+			    "D_都道府県_地方区分階層08_has_地方区分09": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県.地方区分階層08": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08"
+			          }
+			        },
+			        "D_都道府県.地方区分階層08.地方区分09": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08.地方区分09"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層08"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分09"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "地方区分階層08_have_地方区分09"
+			        }
+			      ]
+			    },
+			    "D_都道府県_地方区分階層08_has_地方区分08": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県.地方区分階層08": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08"
+			          }
+			        },
+			        "D_都道府県.地方区分階層08.地方区分08": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08.地方区分08"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層08"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分08"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "地方区分階層08_have_地方区分08"
+			        }
+			      ]
+			    },
+			    "F_統計_has_D_都道府県": {
+			      "Binding": {
+			        "ConceptualEntity": "F_統計"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_統計": {
+			          "Target": {
+			            "Entity": "F_統計"
+			          }
+			        },
+			        "D_都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_統計"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_統計_have_D_都道府県"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県"
+			            },
+			            "Object": {
+			              "Role": "F_統計"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_都道府県_have_F_統計"
+			        }
+			      ]
+			    },
+			    "FP_地方区分02_has_FP_地方区分02": {
+			      "Binding": {
+			        "ConceptualEntity": "FP_地方区分（02）"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "FP_地方区分02": {
+			          "Target": {
+			            "Entity": "FP_地方区分02"
+			          }
+			        },
+			        "FP_地方区分02.FP_地方区分02": {
+			          "Target": {
+			            "Entity": "FP_地方区分02.FP_地方区分02"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "FP_地方区分02"
+			            },
+			            "Object": {
+			              "Role": "FP_地方区分02.FP_地方区分02"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "FP_地方区分02_have_FP_地方区分02"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "FP_地方区分02"
+			            },
+			            "Name": {
+			              "Role": "FP_地方区分02.FP_地方区分02"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "FP_地方区分02_are_names_IDs_of_FP_地方区分02"
+			        }
+			      ]
+			    },
+			    "F_統計_has_一人当たり県内総生産": {
+			      "Binding": {
+			        "ConceptualEntity": "F_統計"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_統計": {
+			          "Target": {
+			            "Entity": "F_統計"
+			          }
+			        },
+			        "F_統計.一人当たり県内総生産": {
+			          "Target": {
+			            "Entity": "F_統計.一人当たり県内総生産"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_統計"
+			            },
+			            "Object": {
+			              "Role": "F_統計.一人当たり県内総生産"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_統計_have_一万人当たり県内総生産"
+			        }
+			      ]
+			    },
+			    "F_統計_has_県内総生産": {
+			      "Binding": {
+			        "ConceptualEntity": "F_統計"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_統計": {
+			          "Target": {
+			            "Entity": "F_統計"
+			          }
+			        },
+			        "F_統計.県内総生産": {
+			          "Target": {
+			            "Entity": "F_統計.県内総生産"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_統計"
+			            },
+			            "Object": {
+			              "Role": "F_統計.県内総生産"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_統計_have_県内総生産"
+			        }
+			      ]
+			    },
+			    "F_統計_has_可住地面積": {
+			      "Binding": {
+			        "ConceptualEntity": "F_統計"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_統計": {
+			          "Target": {
+			            "Entity": "F_統計"
+			          }
+			        },
+			        "F_統計.可住地面積": {
+			          "Target": {
+			            "Entity": "F_統計.可住地面積"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_統計"
+			            },
+			            "Object": {
+			              "Role": "F_統計.可住地面積"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_統計_have_可住地面積"
+			        }
+			      ]
+			    },
+			    "F_統計_has_高齢化率": {
+			      "Binding": {
+			        "ConceptualEntity": "F_統計"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_統計": {
+			          "Target": {
+			            "Entity": "F_統計"
+			          }
+			        },
+			        "F_統計.高齢化率": {
+			          "Target": {
+			            "Entity": "F_統計.高齢化率"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_統計"
+			            },
+			            "Object": {
+			              "Role": "F_統計.高齢化率"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_統計_have_高齢化率"
+			        }
+			      ]
+			    },
+			    "F_統計_has_労働力人口": {
+			      "Binding": {
+			        "ConceptualEntity": "F_統計"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_統計": {
+			          "Target": {
+			            "Entity": "F_統計"
+			          }
+			        },
+			        "F_統計.労働力人口": {
+			          "Target": {
+			            "Entity": "F_統計.労働力人口"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_統計"
+			            },
+			            "Object": {
+			              "Role": "F_統計.労働力人口"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_統計_have_労働力人口"
+			        }
+			      ]
+			    },
+			    "F_統計_has_面積": {
+			      "Binding": {
+			        "ConceptualEntity": "F_統計"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_統計": {
+			          "Target": {
+			            "Entity": "F_統計"
+			          }
+			        },
+			        "F_統計.面積": {
+			          "Target": {
+			            "Entity": "F_統計.面積"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_統計"
+			            },
+			            "Object": {
+			              "Role": "F_統計.面積"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_統計_have_面積"
+			        }
+			      ]
+			    },
+			    "F_統計_has_人口": {
+			      "Binding": {
+			        "ConceptualEntity": "F_統計"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_統計": {
+			          "Target": {
+			            "Entity": "F_統計"
+			          }
+			        },
+			        "F_統計.人口": {
+			          "Target": {
+			            "Entity": "F_統計.人口"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_統計"
+			            },
+			            "Object": {
+			              "Role": "F_統計.人口"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_統計_have_人口"
+			        }
+			      ]
+			    },
+			    "F_統計_has_就業者数": {
+			      "Binding": {
+			        "ConceptualEntity": "F_統計"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_統計": {
+			          "Target": {
+			            "Entity": "F_統計"
+			          }
+			        },
+			        "F_統計.就業者数": {
+			          "Target": {
+			            "Entity": "F_統計.就業者数"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_統計"
+			            },
+			            "Object": {
+			              "Role": "F_統計.就業者数"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_統計_have_就業者数"
+			        }
+			      ]
+			    },
+			    "F_統計_has_平均寿命": {
+			      "Binding": {
+			        "ConceptualEntity": "F_統計"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_統計": {
+			          "Target": {
+			            "Entity": "F_統計"
+			          }
+			        },
+			        "F_統計.平均寿命": {
+			          "Target": {
+			            "Entity": "F_統計.平均寿命"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_統計"
+			            },
+			            "Object": {
+			              "Role": "F_統計.平均寿命"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_統計_have_平均寿命"
+			        }
+			      ]
+			    },
+			    "F_統計_has_高齢者人口": {
+			      "Binding": {
+			        "ConceptualEntity": "F_統計"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_統計": {
+			          "Target": {
+			            "Entity": "F_統計"
+			          }
+			        },
+			        "F_統計.高齢者人口": {
+			          "Target": {
+			            "Entity": "F_統計.高齢者人口"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_統計"
+			            },
+			            "Object": {
+			              "Role": "F_統計.高齢者人口"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_統計_have_高齢者人口"
+			        }
+			      ]
+			    },
+			    "D_都道府県_has_地方区分階層02": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県"
+			          }
+			        },
+			        "D_都道府県.地方区分階層02": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層02"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層02"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_都道府県_have_地方区分階層02"
+			        }
+			      ]
+			    },
+			    "D_都道府県_has_地方区分階層08": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県"
+			          }
+			        },
+			        "D_都道府県.地方区分階層08": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_都道府県_have_地方区分階層08"
+			        }
+			      ]
+			    },
+			    "D_都道府県_has_地方区分04": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県"
+			          }
+			        },
+			        "D_都道府県.地方区分04": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分04"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分04"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_都道府県_have_地方区分04"
+			        }
+			      ]
+			    },
+			    "D_都道府県_has_都道府県": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県"
+			          }
+			        },
+			        "D_都道府県.都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県.都道府県"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.都道府県"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_都道府県_have_都道府県"
+			        }
+			      ]
+			    },
+			    "D_都道府県_in_地方区分階層02_地方区分07": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県"
+			          }
+			        },
+			        "D_都道府県.地方区分階層02.地方区分07": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層02.地方区分07"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "D_都道府県.地方区分階層02.地方区分07"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "D_都道府県"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層02.地方区分07"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_都道府県_are_in_地方区分07"
+			        }
+			      ]
+			    },
+			    "D_都道府県_in_地方区分階層02_地方区分02": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県"
+			          }
+			        },
+			        "D_都道府県.地方区分階層02.地方区分02": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層02.地方区分02"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "D_都道府県.地方区分階層02.地方区分02"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "D_都道府県"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層02.地方区分02"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_都道府県_are_in_地方区分02"
+			        }
+			      ]
+			    },
+			    "D_都道府県_in_地方区分階層08_地方区分09": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県"
+			          }
+			        },
+			        "D_都道府県.地方区分階層08.地方区分09": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08.地方区分09"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "D_都道府県.地方区分階層08.地方区分09"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "D_都道府県"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分09"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_都道府県_are_in_地方区分09"
+			        }
+			      ]
+			    },
+			    "D_都道府県_in_地方区分階層08_地方区分08": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県"
+			          }
+			        },
+			        "D_都道府県.地方区分階層08.地方区分08": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08.地方区分08"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "D_都道府県.地方区分階層08.地方区分08"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "D_都道府県"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層08.地方区分08"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_都道府県_are_in_地方区分08"
+			        }
+			      ]
+			    },
+			    "D_都道府県_in_地方区分04": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県"
+			          }
+			        },
+			        "D_都道府県.地方区分04": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分04"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "D_都道府県.地方区分04"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "D_都道府県"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "D_都道府県.地方区分04"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_都道府県_are_in_地方区分04"
+			        }
+			      ]
+			    },
+			    "D_都道府県_in_都道府県": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県"
+			          }
+			        },
+			        "D_都道府県.都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県.都道府県"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "D_都道府県.都道府県"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "D_都道府県"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "D_都道府県.都道府県"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_都道府県_are_in_都道府県"
+			        }
+			      ]
+			    },
+			    "D_都道府県_states_or_地方区分階層02_地方区分07": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県"
+			          }
+			        },
+			        "D_都道府県.地方区分階層02.地方区分07": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層02.地方区分07"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "D_都道府県"
+			            },
+			            "Verbs": [
+			              {}
+			            ],
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "or": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "D_都道府県.地方区分階層02.地方区分07"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "D_都道府県_state_or_地方区分07"
+			        }
+			      ]
+			    },
+			    "D_都道府県_states_or_地方区分階層02_地方区分02": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県"
+			          }
+			        },
+			        "D_都道府県.地方区分階層02.地方区分02": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層02.地方区分02"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "D_都道府県"
+			            },
+			            "Verbs": [
+			              {}
+			            ],
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "or": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "D_都道府県.地方区分階層02.地方区分02"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "D_都道府県_state_or_地方区分02"
+			        }
+			      ]
+			    },
+			    "D_都道府県_states_or_地方区分階層08_地方区分09": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県"
+			          }
+			        },
+			        "D_都道府県.地方区分階層08.地方区分09": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08.地方区分09"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "D_都道府県"
+			            },
+			            "Verbs": [
+			              {}
+			            ],
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "or": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "D_都道府県.地方区分階層08.地方区分09"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "D_都道府県_state_or_地方区分09"
+			        }
+			      ]
+			    },
+			    "D_都道府県_states_or_地方区分階層08_地方区分08": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県"
+			          }
+			        },
+			        "D_都道府県.地方区分階層08.地方区分08": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層08.地方区分08"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "D_都道府県"
+			            },
+			            "Verbs": [
+			              {}
+			            ],
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "or": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "D_都道府県.地方区分階層08.地方区分08"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "D_都道府県_state_or_地方区分08"
+			        }
+			      ]
+			    },
+			    "D_都道府県_地方区分階層02_has_都道府県": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県.地方区分階層02": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層02"
+			          }
+			        },
+			        "D_都道府県.地方区分階層02.都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層02.都道府県"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層02"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層02.都道府県"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "地方区分階層02_have_都道府県"
+			        }
+			      ]
+			    },
+			    "D_都道府県_地方区分階層02_地方区分02_has_D_都道府県_地方区分階層02_地方区分07": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県.地方区分階層02.地方区分02": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層02.地方区分02"
+			          }
+			        },
+			        "D_都道府県.地方区分階層02.地方区分07": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層02.地方区分07"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層02.地方区分02"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層02.地方区分07"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "地方区分02_have_地方区分07"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層02.地方区分07"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層02.地方区分02"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "地方区分07_have_地方区分02"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層02.地方区分07"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層02.地方区分02"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "地方区分07_are_in_地方区分02"
+			        }
+			      ]
+			    },
+			    "D_都道府県_地方区分階層02_地方区分07_has_D_都道府県_地方区分階層02_都道府県": {
+			      "Binding": {
+			        "ConceptualEntity": "D_都道府県"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_都道府県.地方区分階層02.地方区分07": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層02.地方区分07"
+			          }
+			        },
+			        "D_都道府県.地方区分階層02.都道府県": {
+			          "Target": {
+			            "Entity": "D_都道府県.地方区分階層02.都道府県"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層02.地方区分07"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層02.都道府県"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "地方区分07_have_都道府県"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層02.都道府県"
+			            },
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層02.地方区分07"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "都道府県_have_地方区分07"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "D_都道府県.地方区分階層02.都道府県"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "D_都道府県.地方区分階層02.地方区分07"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "都道府県_are_in_地方区分07"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

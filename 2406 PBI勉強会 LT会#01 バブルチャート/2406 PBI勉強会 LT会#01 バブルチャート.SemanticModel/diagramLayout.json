@@ -1,0 +1,61 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "D_都道府県",
+          "nodeLineageTag": "fd72c94c-7596-465c-a5a5-3299ebedb8aa",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 356,
+            "y": 151
+          },
+          "nodeIndex": "F_統計",
+          "nodeLineageTag": "e3e411b0-3388-4642-9a46-dad8d3661bdb",
+          "size": {
+            "height": 373,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 627,
+            "y": 151.5
+          },
+          "nodeIndex": "FP_地方区分（02）",
+          "nodeLineageTag": "084afb82-c2ed-4c16-89bc-1bb6a636db66",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 2
+        }
+      ],
+      "name": "すべてのテーブル",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "すべてのテーブル",
+  "defaultDiagram": "すべてのテーブル"
+}

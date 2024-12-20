@@ -1,0 +1,22 @@
+model Model
+	culture: ja-JP
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: ja-JP
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBIDesktopVersion = 2.138.1452.0 (24.11)
+
+annotation PBI_QueryOrder = ["D_都道府県","F_統計"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table D_都道府県
+ref table F_統計
+ref table FP_地方区分（02）
+
+ref cultureInfo ja-JP
+

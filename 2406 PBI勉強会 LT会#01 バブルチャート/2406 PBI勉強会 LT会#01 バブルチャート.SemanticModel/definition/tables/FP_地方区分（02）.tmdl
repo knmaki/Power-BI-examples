@@ -1,0 +1,49 @@
+table FP_地方区分（02）
+	lineageTag: 084afb82-c2ed-4c16-89bc-1bb6a636db66
+
+	column FP_地方区分（02）
+		lineageTag: 8d6ddb1c-f86a-46d9-8dce-9ad283719cc3
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'FP_地方区分（02） 注文'
+
+		relatedColumnDetails
+			groupByColumn: 'FP_地方区分（02） フィールド'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FP_地方区分（02） フィールド'
+		isHidden
+		lineageTag: ff2f54e4-926d-4a82-99c5-503bf82c9a54
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'FP_地方区分（02） 注文'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FP_地方区分（02） 注文'
+		isHidden
+		formatString: 0
+		lineageTag: 7a69caad-66a4-4489-bd54-8295c1b02a0a
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FP_地方区分（02） = calculated
+		mode: import
+		source =
+				{
+				    ("地方区分（02）", NAMEOF('D_都道府県'[地方区分（02）]), 0),
+				    ("地方区分（07）", NAMEOF('D_都道府県'[地方区分（07）]), 1),
+				    ("都道府県", NAMEOF('D_都道府県'[都道府県]), 2)
+				}
+
+	annotation PBI_Id = 8e34921dc08c42b3a4d2a8bd81743135
+

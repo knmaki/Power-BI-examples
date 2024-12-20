@@ -1,0 +1,200 @@
+table F_統計
+	lineageTag: e3e411b0-3388-4642-9a46-dad8d3661bdb
+
+	/// 単位：万人
+	measure 高齢者人口 = SUMX('F_統計', 'F_統計'[_人口] * 'F_統計'[_高齢化率])
+		formatString: 0
+		displayFolder: 人口
+		lineageTag: fdaeab98-40d2-4397-8fc6-5986a4907931
+
+	/// 単位：歳
+	measure 平均寿命 = AVERAGEX('F_統計', 'F_統計'[_人口] * 'F_統計'[_寿命]) / SUM('F_統計'[_人口])
+		formatString: #,0
+		displayFolder: 人口
+		lineageTag: e3178c57-7040-4a9f-9813-d125d84d7622
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	/// 単位：万人
+	measure 就業者数 = SUM('F_統計'[_就業者数])
+		formatString: #,0
+		displayFolder: 人口
+		lineageTag: ce03cf06-7e0b-4a6e-aec5-cbc6561416a0
+
+	/// 単位：万人
+	measure 人口 = SUM('F_統計'[_人口])
+		formatString: #,0
+		displayFolder: 人口
+		lineageTag: 16ba77e2-175c-4103-8210-e719b8ae128a
+
+	/// 単位：㎢
+	measure 面積 = SUM('F_統計'[_面積])
+		formatString: #,0
+		displayFolder: 面積
+		lineageTag: 9cdf5131-c47c-4477-80f4-953ce0c6a823
+
+	/// 単位：万人
+	measure 労働力人口 = SUM('F_統計'[_労働力人口])
+		formatString: #,0
+		displayFolder: 人口
+		lineageTag: c11d4ab9-dd55-4e55-b4de-fcd8b4c206b4
+
+	/// 単位：%
+	measure 高齢化率 = [高齢者人口] / [人口]
+		formatString: 0%;-0%;0%
+		displayFolder: 人口
+		lineageTag: bb6b922e-b41e-44ec-88d1-919769192495
+
+	/// 単位：㎢
+	measure 可住地面積 = SUM('F_統計'[_可住地面積])
+		formatString: #,0
+		displayFolder: 面積
+		lineageTag: 39129f8f-fef0-41d8-9e80-80ba709f1620
+
+	/// 単位：億円
+	measure 県内総生産 = SUM('F_統計'[_県内総生産])
+		formatString: #,0
+		displayFolder: 県内総生産
+		lineageTag: aaa9c682-7b61-4723-9e09-5002da05d803
+
+	/// 単位：億円/万人
+	measure 一万人当たり県内総生産 = [県内総生産]/[人口]
+		formatString: #,0.0
+		displayFolder: 県内総生産
+		lineageTag: d5f07a3e-4230-4ecb-8840-aa1c06f42c05
+
+	column 都道府県
+		dataType: string
+		isHidden
+		lineageTag: 503c2b8d-93ca-4417-bdc4-b15550740dfa
+		summarizeBy: none
+		sourceColumn: 都道府県
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column _県内総生産
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 0df4e2e3-05f4-4b1d-8b33-ff7cc34f1363
+		summarizeBy: sum
+		sourceColumn: _県内総生産
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column _人口
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 4b81744f-8356-4ef2-b4c0-4419e6f221e2
+		summarizeBy: sum
+		sourceColumn: _人口
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column _労働力人口
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 6f27a5de-be87-43ec-9339-441d9fd1c5d5
+		summarizeBy: sum
+		sourceColumn: _労働力人口
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column _就業者数
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 8c34519a-61c6-4534-a6f2-812b6e755385
+		summarizeBy: sum
+		sourceColumn: _就業者数
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column _高齢化率
+		dataType: double
+		isHidden
+		lineageTag: fab19fe5-0be1-4df7-80d1-cf118957723d
+		summarizeBy: sum
+		sourceColumn: _高齢化率
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column _合計特殊出生率
+		dataType: double
+		isHidden
+		lineageTag: b42d0116-19ed-4cf4-8acb-5882be3b7862
+		summarizeBy: sum
+		sourceColumn: _合計特殊出生率
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column _寿命
+		dataType: double
+		isHidden
+		lineageTag: cf1ae9f2-22e1-48a9-a468-fa2c883815e5
+		summarizeBy: sum
+		sourceColumn: _寿命
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column _面積
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 6cf896a1-fb9b-48bd-a41a-e1d8fd3d4c08
+		summarizeBy: sum
+		sourceColumn: _面積
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column _可住地面積
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 8b68d3fb-a010-4de2-bc1e-1a035866617e
+		summarizeBy: sum
+		sourceColumn: _可住地面積
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition F_統計 = m
+		mode: import
+		source =
+				let
+				    ソース = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("hVdtUtxGEL3LVuXflEvzPToL5bskBf4grIE4NsHFknVsg4lNsJeNjb0OzmWQhG6Rme6ZkVpoK39GWlg9db9+/bp3Y2PSnO5Vl380s+mETUTBiqLwN5qHUxg4NZzuB3/ye1KHq5P+UKx0xl8lPHSfbUxurvdvlz8iloxQjoevhjvpwlFEHLg6cU8HcKbgG5zpiNQ+v6r+3kUkFZG4DFAmPGBEgJIUCr7KpQDABNQ8/LmenSOQgb/6R2zAKCG6cCc5yQ1jskwVZX57gKrevK0eP0wxRSiuAl3hAQ0xiZH0DJNIQAd1cZHTkwmqsAEl3Co7np5lVur8CPD09d/qwX61/IxYOlEFlYM0LbxZ3cEqGXc2ZxKw6suD5svWgHMIBTBMuBMxP4dACrgWUGPORApqeVLtHURJJUVBnQHCjCcXkrKA4xJLy8/1y68JB1mCKKDGoIZhYpFvWzhCk1d4tVggkk18u1DeMkshK5OqACvcU8FqM9PNecxOWAdkoUz1eL84pmyZiwRYi0W193pQOimpysUdpowPChlLjFfflzmoxJQNOCgXOS4B3y3K5BpB5U5fVFfHVJelSYpUpFn6jPuaWUs0UG8dVe+OBs0i1f+lppmx1FPa94fN/ISKCTUtswg04gjkmqfKFYpYQf1tJ7tTZlsJqm83IgJffG4J1M3qvN28rlYz6NskAgNtIAFXgAhKkiCapom169lKe/gOsVTCclggdAOF6CRJAWyXhSasVw8+Vav3QzNXmBkKlZh5v4aOSSh1T54nj2+3PwxNWNAajvm5ZKbkaA0J6um0/muaezANh1IkWam+o/dyVMwilV0ZDz7W13PEcYl6AXxw9FG9Li7uUcCzTOcMH7qoco4gHOTerZO8YgL+2Rs182VunrH5INeF5fvQYR+aBHW6d7N6TrmCBuv189ik8UjgZaJvMfWrM9rRSGw3kvmIMyijSQH9QG4f7SYHjayj+rCS60n3r4XOsF1Ql/vt4Wxgx2VJwQbNE8EKZgQHleYRePwiLzDcxNCkCbxz1437Uc37gWoHQ3DrKNtN7kYLBVSIXPa7sWfvmnFLO/vmy3b76AnljMOk6HaP0Sx1DKsbYLfTs2q+O5w6MMDHpo6i47Ao7aQ/w+qXm/XsbBBYKSf9cZgD63rR+JWIztXm+5v29HxYSDUZnav9ASbRPLLgq/k/ze52NK6seJgXEooo0bj0HUOVzJbUnKsnm7e/JKzElREQuQAsTkpY9EuoLSlhfbxArwftJXVxT4QCXWCYAJe8q78ZIRfdWtuc/O5NtRuxNvsgLBkOlz+Ao+Napj2Zx3Gbcp3+Vn+6an/6ddI3fMg1Wr0mxSSGL5nS4PhFN22Pn9avLwZ2COZq8haXd7c4bkP8zCgUbtfif9bbOwMzhM7tAQmq1vBBM9ylDNmVk/TLpPw4ZNFiifK7hrR+MRWkuZu3O82zj4MRlDcbdEQ6Zgt0Hc6MpA0ZVrfrV+s3+LWrUsmkkKQbwy+wtLzlbnSDnyjFnW70vmpjnoB0/z8=", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [都道府県 = _t, _県内総生産 = _t, _人口 = _t, _労働力人口 = _t, _就業者数 = _t, _高齢化率 = _t, _合計特殊出生率 = _t, _寿命 = _t, _面積 = _t, _可住地面積 = _t]),
+				    変更された型 = Table.TransformColumnTypes(ソース,{{"都道府県", type text}, {"_県内総生産", Int64.Type}, {"_人口", Int64.Type}, {"_労働力人口", Int64.Type}, {"_就業者数", Int64.Type}, {"_高齢化率", Percentage.Type},  {"_合計特殊出生率", Percentage.Type}, {"_寿命", type number}, {"_面積", Int64.Type}, {"_可住地面積", Int64.Type}})
+				in
+				    変更された型
+
+	annotation PBI_NavigationStepName = ナビゲーション
+
+	annotation PBI_ResultType = Table
+

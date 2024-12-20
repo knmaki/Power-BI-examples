@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "2406 PBI勉強会 LT会#01 バブルチャート"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "cc9c332d-1140-497e-82f5-bbfc7e0d877b"
+  }
+}

@@ -1,0 +1,4 @@
+relationship b9f2b3db-dcaa-f18b-4097-c99ab3fc9470
+	fromColumn: F_統計.都道府県
+	toColumn: D_都道府県.都道府県
+

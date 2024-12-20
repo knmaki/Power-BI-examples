@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.2.0/schema.json",
+  "name": "313e8878f631b563f59d",
+  "displayName": "ページ 1",
+  "displayOption": "FitToWidth",
+  "height": 720,
+  "width": 1280
+}

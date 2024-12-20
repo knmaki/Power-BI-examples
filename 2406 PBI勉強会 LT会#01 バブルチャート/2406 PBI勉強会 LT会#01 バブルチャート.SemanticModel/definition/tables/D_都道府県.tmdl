@@ -1,0 +1,240 @@
+table D_都道府県
+	lineageTag: fd72c94c-7596-465c-a5a5-3299ebedb8aa
+
+	column 都道府県_順序
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 109d6015-8b91-4b46-ad23-f0535f09ea05
+		summarizeBy: none
+		sourceColumn: 都道府県_順序
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 都道府県
+		dataType: string
+		lineageTag: e4426eee-55a0-4509-80a5-9afefa85a3c0
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: 都道府県
+		sortByColumn: 都道府県_順序
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	/// 東北、関東、九州を北と南に分けた狭域的な地方区分。
+	column 地方区分（14）
+		dataType: string
+		isHidden
+		lineageTag: 5b784602-6a7b-4a68-8e2e-019753aa37df
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: 地方区分（14）
+		sortByColumn: 地方区分（14）_順序
+
+		changedProperty = IsHidden
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 地方区分（14）_順序
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 72b4bed4-8136-4555-b36a-fc37438eec0e
+		summarizeBy: none
+		sourceColumn: 地方区分（14）_順序
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	/// 西日本と東日本
+	column 地方区分（02）
+		dataType: string
+		isHidden
+		lineageTag: 3fd14e97-ebfc-428e-bcef-ff86432cd09d
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: 地方区分（02）
+		sortByColumn: 地方区分（02）_順序
+
+		changedProperty = SortByColumn
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 地方区分（02）_順序
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: c84c73d4-c086-484e-aeef-6de061194e80
+		summarizeBy: none
+		sourceColumn: 地方区分（02）_順序
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	/// 気象予報では、北日本、東日本、西日本、沖縄・奄美の4分類になっており、東日本は関東甲信・北陸・東海（三重県も含む）を指し、北海道・東北は北日本とされている。
+	column 地方区分（04）
+		dataType: string
+		lineageTag: 49989d74-a9a7-49a1-8ffe-b0c363d20e92
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: 地方区分（04）
+		sortByColumn: 地方区分（04）_順序
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 地方区分（04）_順序
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 79ec2ee7-10a9-4216-af67-c1a81c887ae3
+		summarizeBy: none
+		sourceColumn: 地方区分（04）_順序
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	/// 七地方区分。中国と四国が一緒になっている。三重県は近畿地方。
+	column 地方区分（07）
+		dataType: string
+		isHidden
+		lineageTag: 80de63a2-75dc-4872-bd69-1646f9be2663
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: 地方区分（07）
+		sortByColumn: 地方区分（07）_順序
+
+		changedProperty = SortByColumn
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 地方区分（07）_順序
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: d571ecda-e4d2-4ded-851f-c13f2dedb77a
+		summarizeBy: none
+		sourceColumn: 地方区分（07）_順序
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	/// 八地方区分。中国と四国が分かれている。三重県は中部地方。近畿地方ではなく関西地方。
+	column 地方区分（08）
+		dataType: string
+		isHidden
+		lineageTag: 04527f24-9c7d-4cb2-bb63-c438e99e011b
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: 地方区分（08）
+		sortByColumn: 地方区分（08）_順序
+
+		changedProperty = SortByColumn
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 地方区分（08）_順序
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: fa701066-4aab-4e2e-ae6c-dd0a2fdc24ea
+		summarizeBy: none
+		sourceColumn: 地方区分（08）_順序
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	/// 北陸・甲信越地方、東海地方に分かれた区分。三重県は東海地方。近畿地方ではなく関西地方。
+	column 地方区分（09）
+		dataType: string
+		isHidden
+		lineageTag: 70e29158-c4ef-479d-ac20-3a56fff44262
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: 地方区分（09）
+		sortByColumn: 地方区分（09）_順序
+
+		changedProperty = SortByColumn
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 地方区分（09）_順序
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 085b32a3-9da2-440f-b7b7-39717a873499
+		summarizeBy: none
+		sourceColumn: 地方区分（09）_順序
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 地方区分階層（08）
+		lineageTag: 9e9b8a1b-51e5-4a3f-842c-1dcc922bd5aa
+
+		level 地方区分（08）
+			lineageTag: 3c723b90-2a3e-4dba-93d5-f12a77adb20f
+			column: 地方区分（08）
+
+		/// 北陸・甲信越地方、東海地方に分かれた区分。三重県は東海地方。近畿地方ではなく関西地方。
+		level 地方区分（09）
+			lineageTag: bd6d3f07-bd0d-4836-b1c2-dba12b98ead7
+			column: 地方区分（09）
+
+		level 地方区分（14）
+			lineageTag: 6cd2c604-c4c6-4aef-89c9-07bf9bb4893d
+			column: 地方区分（14）
+
+		level 都道府県
+			lineageTag: 33406668-79e7-4088-8f7c-1af8fefeb9a7
+			column: 都道府県
+
+	hierarchy 地方区分階層（02）
+		lineageTag: dac30f2a-2c28-4f5a-97a9-27aa2641a6ff
+
+		level 地方区分（02）
+			lineageTag: 6caafe46-fae7-48f8-9d58-431f5928e433
+			column: 地方区分（02）
+
+		level 地方区分（07）
+			lineageTag: 8552e133-24e1-4505-aa07-1417721f1319
+			column: 地方区分（07）
+
+		level 都道府県
+			lineageTag: 42fa2ece-4b77-48db-86ad-880fcf59dbfe
+			column: 都道府県
+
+	partition D_都道府県 = m
+		mode: import
+		source =
+				let
+				    ソース = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("vZjbVtpAFIbfhWsvCkHAZ2H5Lu0KKshRK6cFiCABqohKCgEs8DBlJpm36N4zHNKsatOSyd38ew7fmkP+2ZN4PBAMHAVIpkzHBvvyFcq08UrLGq0PoLytc+pt23/Xp0fxQAhKrHFN74dmPeOCCPUQgkLoQ4Hd9hpBCkZH32gqLRkUxuhwSJo5b0HZPUjhoGMomb20efMieUYRjL6+kkVb8oyiOKNunugTyaAYlKxM/909smt+QkttCPHuHwlA7HSYg05wsDuV1vuSQcFPuHbLDusOZJP4TjR/mLmUt6TsnnQsSGLzVOtKOkkRo63nA6YupJLQHkztlmhJYjRkTwstgpZe6KLpjrSePjG1z7faIfAcVKc/1TfzZrRetazJ5abCriOCyv3iOQOWIY0qKqAQFUjuHE3d9ZJ6gEQPAbNaz4u+IdFNYFVp26WbeLKdIXQWVjTYhUuz9IbKXWZUYJX6oVRsOTb4R2ETMYER+UeVjFpSMdxfEjWzqUnFiNYpdpEVGEtb/TasE2OtrsziajOYewyPvaUt/fOfMXatODHgUVDvFBG7OBEYjAlHJvO6PAx6B+n0WOVBKgb9gpyNyfxR6qJxj9CSVupZJkZBUyDXGfq0t3lJJPw8mK6RfMkdBo4xqS3AZEitBoXNqCLqFFG7gBSKA3nWoU/o3cwnoHiatFwv5MFA7sVzdZdnSwfiJuMLIn/vE5CnIEv9wBnuRNQuYnYRFM9YBVuwbnWXgEgHYhBuFPJQ8wmIxsIeK7srTDYwzF808BrcXs1/Bc4axLjdnoitiNkFN0dIQtT+LhTcvNrRZtaLgus77TAaTzuKBvme84OGI5jnlzCcHzTuLp0eSZ77QePWMhx6vpLZ8h4lfhqE+e00W5Gzgntf+X8a9qCjkjlNvJPL8Tr8vrSEucwFNrmiO6DojDR41J/+Ag==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [都道府県_順序 = _t, 都道府県 = _t, #"地方区分（02）" = _t, #"地方区分（02）_順序" = _t, #"地方区分（04）" = _t, #"地方区分（04）_順序" = _t, #"地方区分（07）" = _t, #"地方区分（07）_順序" = _t, #"地方区分（08）" = _t, #"地方区分（08）_順序" = _t, #"地方区分（09）" = _t, #"地方区分（09）_順序" = _t, #"地方区分（14）" = _t, #"地方区分（14）_順序" = _t]),
+				    変更された型 = Table.TransformColumnTypes(ソース,{{"都道府県_順序", Int64.Type}, {"都道府県", type text}, {"地方区分（02）", type text}, {"地方区分（02）_順序", Int64.Type}, {"地方区分（04）", type text}, {"地方区分（04）_順序", Int64.Type}, {"地方区分（07）", type text}, {"地方区分（07）_順序", Int64.Type}, {"地方区分（08）", type text}, {"地方区分（08）_順序", Int64.Type}, {"地方区分（09）", type text}, {"地方区分（09）_順序", Int64.Type}, {"地方区分（14）", type text}, {"地方区分（14）_順序", Int64.Type}})
+				in
+				    変更された型
+
+	annotation PBI_NavigationStepName = ナビゲーション
+
+	annotation PBI_ResultType = Table
+

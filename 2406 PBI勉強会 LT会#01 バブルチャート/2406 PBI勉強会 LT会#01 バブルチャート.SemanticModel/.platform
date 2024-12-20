@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "2406 PBI勉強会 LT会#01 バブルチャート"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7edfe970-0443-4dbd-80e2-4e7bc4323c81"
+  }
+}
